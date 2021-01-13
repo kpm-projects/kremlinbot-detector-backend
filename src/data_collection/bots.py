@@ -4,6 +4,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
+from src.data_collection.commons import HTML_A
 from src.data_collection.extraction import get_comment_data
 
 LIMIT = 10
@@ -13,7 +14,6 @@ BOT_IDS_PATH = 'resources/bot_ids.txt'
 BOT_DATA_PATH = 'data/bots.tsv'
 MAX_PAGES_NUM = 100
 GET_BOT_URL_FORM = 'https://gosvon.net/?usr={}&p={}'
-HTML_A = 'a'
 GROUP_LINK_NAME = 'Ссылка'
 
 
@@ -37,7 +37,7 @@ def main():
                     break
 
                 soup = BeautifulSoup(response.text)
-                for a in soup.findAll(HTML_A):
+                for a in soup.findAll('a'):
                     content = a.contents
                     if GROUP_LINK_NAME in content:
                         link = a['href']

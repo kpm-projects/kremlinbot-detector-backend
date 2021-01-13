@@ -32,7 +32,6 @@ class VkApi(metaclass=Singleton):
 
         vk_session = vk_api.VkApi(config[VK_LOGIN], config[VK_PASSWORD])
         vk_session.auth()
-        print('ATTENTION')
 
         self.VK_API = vk_session.get_api()
 
