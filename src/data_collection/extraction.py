@@ -11,7 +11,7 @@ import re
 
 COMMENT_REGEX = r'^https://vk.com/wall(-?\d+)_\d+\?reply=(\d+)'
 REGISTRATION_URL_FORM = 'https://vk.com/foaf.php?id={}'
-EMPTY_COMMENT_FLAG = 'а'
+EMPTY_COMMENT_FLAG = '@@@'
 
 def get_comment_data_list_by_link(comment_link, is_bot):
     comment_data = get_comment_data_by_link(comment_link)
