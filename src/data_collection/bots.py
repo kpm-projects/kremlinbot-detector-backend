@@ -1,3 +1,4 @@
+import codecs
 import csv
 
 import requests
@@ -17,7 +18,7 @@ BANNED = 'Страница забанена'
 
 def main():
     bot_ids = get_bot_ids()
-    with open(BOT_DATA_PATH, 'w+') as bot_data_file:
+    with codecs.open(BOT_DATA_PATH, 'w+', encoding='utf8') as bot_data_file:
         tsv_writer = csv.writer(bot_data_file, delimiter='\t')
         tsv_writer.writerow(COMMENT_DATA_Y)
 

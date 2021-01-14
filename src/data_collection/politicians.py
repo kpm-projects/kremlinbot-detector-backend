@@ -1,3 +1,4 @@
+import codecs
 import csv
 import re
 
@@ -23,7 +24,7 @@ def main():
     vk_api = get_vk_api()
 
     bot_ids = get_bot_ids()
-    with open(POLITICIAN_DATA_PATH, 'w+') as politician_data_file:
+    with codecs.open(POLITICIAN_DATA_PATH, 'w+', encoding='utf8') as politician_data_file:
         tsv_writer = csv.writer(politician_data_file, delimiter='\t')
         tsv_writer.writerow(COMMENT_DATA_Y)
 

@@ -1,3 +1,5 @@
+import codecs
+
 import toml
 import vk_api
 
@@ -49,7 +51,7 @@ def get_vk_api():
 
 
 def get_bot_ids():
-    with open(BOT_IDS_PATH, 'r') as bot_ids_file:
+    with codecs.open(BOT_IDS_PATH, 'r', encoding='utf8') as bot_ids_file:
         lines = bot_ids_file.readlines()
         bot_ids = list(map(int, lines))
     return set(bot_ids)
