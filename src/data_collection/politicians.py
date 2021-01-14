@@ -28,6 +28,8 @@ def main():
         tsv_writer.writerow(COMMENT_DATA_Y)
 
         limit = get_config()[POLITICIANS_NUM]
+        if limit == 0:
+            return
         cnt = 0
 
         for a in soup.findAll('a'):
