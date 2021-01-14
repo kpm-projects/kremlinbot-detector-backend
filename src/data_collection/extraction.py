@@ -11,7 +11,7 @@ import re
 
 COMMENT_REGEX = r'^https://vk.com/wall(-?\d+)_\d+\?reply=(\d+)'
 REGISTRATION_URL_FORM = 'https://vk.com/foaf.php?id={}'
-
+EMPTY_COMMENT_FLAG = 'а'
 
 def get_comment_data_list_by_link(comment_link, is_bot):
     comment_data = get_comment_data_by_link(comment_link)
@@ -57,6 +57,10 @@ def get_comment_data(owner_id, comment_id):
     item = comment['items'][0]
     profile = comment['profiles'][0]
 
+    text = item['text'].replace('\n', ' ')
+    if len(text) == 0:
+        text = EMPTY_COMMENT_FLAG
+
     posts = '{}_{}'.format(item['owner_id'], item['post_id'])
     post = vk_api.wall.getById(posts=posts)[0]
 
@@ -72,7 +76,7 @@ def get_comment_data(owner_id, comment_id):
     reg_date_unix = int(time.mktime(reg_date.timetuple()))
 
     return CommentData(
-        text=item['text'],
+        text=text,
         has_media='attachments' in item,
         time_dif=item['date'] - post['date'],
         likes_cnt=item['likes']['count'],
