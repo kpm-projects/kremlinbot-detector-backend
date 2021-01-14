@@ -1,2 +1,4 @@
 vk_login = "login"
 vk_password = "password"
+bots_num = 5
+politicians_num = 5

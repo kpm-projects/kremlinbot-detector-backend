@@ -1,7 +1,8 @@
 import toml
 import vk_api
 
-CONFIG_PATH = 'resources/config.toml'
+CONFIG_PATH = '../../resources/config.toml'
+BOT_IDS_PATH = '../../resources/bot_ids.txt'
 VK_LOGIN = 'vk_login'
 VK_PASSWORD = 'vk_password'
 
@@ -45,3 +46,10 @@ def get_config():
 
 def get_vk_api():
     return VkApi().get()
+
+
+def get_bot_ids():
+    with open(BOT_IDS_PATH, 'r') as bot_ids_file:
+        lines = bot_ids_file.readlines()
+        bot_ids = list(map(int, lines))
+    return set(bot_ids)
