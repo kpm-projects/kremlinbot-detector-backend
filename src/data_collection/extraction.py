@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from data_collection.comment_data import CommentData
-from utils import get_vk_api
+from data_collection.utils import get_vk_api
 from pyOptional import Optional
 import re
 
