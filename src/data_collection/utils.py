@@ -7,6 +7,7 @@ CONFIG_PATH = '../../resources/config.toml'
 BOT_IDS_PATH = '../../resources/bot_ids.txt'
 VK_LOGIN = 'vk_login'
 VK_PASSWORD = 'vk_password'
+PROCESSED_NOTIFY_NUM = 100
 
 
 class Singleton(type):
@@ -28,8 +29,6 @@ class Config(metaclass=Singleton):
 
 
 class VkApi(metaclass=Singleton):
-    VK_API = toml.load(CONFIG_PATH)
-
     def __init__(self):
         config = Config().get()
 
@@ -42,6 +41,16 @@ class VkApi(metaclass=Singleton):
         return self.VK_API
 
 
+class BotIds(metaclass=Singleton):
+    def __init__(self):
+        with codecs.open(BOT_IDS_PATH, 'r', encoding='utf8') as bot_ids_file:
+            lines = bot_ids_file.readlines()
+            self.BOT_IDS = set(map(int, lines))
+
+    def get(self):
+        return self.BOT_IDS
+
+
 def get_config():
     return Config().get()
 
@@ -51,7 +60,4 @@ def get_vk_api():
 
 
 def get_bot_ids():
-    with codecs.open(BOT_IDS_PATH, 'r', encoding='utf8') as bot_ids_file:
-        lines = bot_ids_file.readlines()
-        bot_ids = list(map(int, lines))
-    return set(bot_ids)
+    return BotIds().get()
