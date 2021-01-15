@@ -66,7 +66,7 @@ def main():
                                                         count=MAX_COUNT)['items']
                             except:
                                 continue
-                            politician_item_ids = filter(lambda item: item['from_id'] not in bot_ids, comment_items)
+                            politician_item_ids = filter(lambda item: item.get('from_id') is not None and item.get('from_id')not in bot_ids, comment_items)
                             comment_ids = map(lambda item: item['id'], politician_item_ids)
 
                             for comment_id in comment_ids:
