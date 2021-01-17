@@ -10,8 +10,7 @@ from data_collection.utils import get_config, get_bot_ids, get_vk_api, PROCESSED
 
 BOTS_NUM = 'bots_num'
 BOT_DATA_PATH = '../../data/bots.tsv'
-MAX_PAGES_NUM = 100
-GET_BOT_URL_FORM = 'https://gosvon.net/?usr={}&p={}'
+GET_BOT_URL_FORM = 'https://gosvon.net/?usr={}'
 GROUP_LINK_NAME = 'Ссылка'
 BANNED = 'Страница забанена'
 
@@ -30,35 +29,29 @@ def main():
         # start_time = time.time()
 
         for bot_id in bot_ids:
-            prev_response = None
-            for page_num in range(1, MAX_PAGES_NUM):
-                response = requests.get(GET_BOT_URL_FORM.format(bot_id, page_num))
-                if BANNED in response.text:
-                    break
-                if prev_response is not None and response.text == prev_response.text:
-                    break
+            response = requests.get(GET_BOT_URL_FORM.format(bot_id))
+            if BANNED in response.text:
+                break
 
-                soup = BeautifulSoup(response.text, features='html.parser')
-                for a in soup.findAll('a'):
-                    content = a.contents
-                    if GROUP_LINK_NAME in content:
-                        link = a['href']
-                        data_list = get_comment_data_list_by_link(vk_api, link, True)
-                        if data_list is None:
-                            continue
+            soup = BeautifulSoup(response.text, features='html.parser')
+            for a in soup.findAll('a'):
+                content = a.contents
+                if GROUP_LINK_NAME in content:
+                    link = a['href']
+                    data_list = get_comment_data_list_by_link(vk_api, link, True)
+                    if data_list is None:
+                        continue
 
-                        tsv_writer.writerow(data_list)
-                        cnt += 1
+                    tsv_writer.writerow(data_list)
+                    cnt += 1
 
-                        if cnt % PROCESSED_NOTIFY_NUM == 0:
-                            print('Processed {} bots...'.format(cnt))
-                            bot_data_file.flush()
+                    if cnt % PROCESSED_NOTIFY_NUM == 0:
+                        print('Processed {} bots...'.format(cnt))
+                        bot_data_file.flush()
 
-                        if cnt == limit:
-                            # print("--- %s seconds ---" % (time.time() - start_time))
-                            return
-
-                prev_response = response
+                    if cnt == limit:
+                        # print("--- %s seconds ---" % (time.time() - start_time))
+                        return
 
 
 if __name__ == '__main__':
