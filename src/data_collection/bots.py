@@ -31,7 +31,7 @@ def main():
         for bot_id in bot_ids:
             response = requests.get(GET_BOT_URL_FORM.format(bot_id))
             if BANNED in response.text:
-                break
+                continue
 
             soup = BeautifulSoup(response.text, features='html.parser')
             for a in soup.findAll('a'):
