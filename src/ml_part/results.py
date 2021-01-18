@@ -15,7 +15,6 @@ from string import punctuation
 from pymystem3 import Mystem
 import pymorphy2
 
-
 emoticons = [u'&#_128514;', u'&#_128517;', u'u&#34;\U0001F923&#34;']
 
 emoji_pattern = re.compile("["
@@ -121,9 +120,13 @@ def preprocess_text_stopwords(text, setting="nltk-stopwords"):
     return tokens
 
 
-def get_answer(pkl_filename, X_test):
+def get_answer_by_file(pkl_filename, X_test):
     with open(pkl_filename, 'rb') as file:
         model, mapper, min_max_scaler = pickle.load(file)
+    return get_answer(model, mapper, min_max_scaler, X_test)
+
+
+def get_answer(model, mapper, min_max_scaler, X_test):
     X_test.replace({True: 1, False: 0})
     X_test['mystem'] = X_test['text'].apply(preprocess_text_mention_and_n)
     X_test['mystem'] = X_test['mystem'].apply(clean_emoticons)
@@ -138,7 +141,6 @@ def get_answer(pkl_filename, X_test):
     Ypredict = model.predict(X_test)
     print(Ypredict[0])
     return Ypredict[0]
-
 
 # if __name__ == '__main__':
 #     X_test = pd.read_csv('./X_test.tsv', sep="\t", header=0)

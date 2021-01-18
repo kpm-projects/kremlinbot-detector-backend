@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 
-COMMENT_DATA_Y = ['text', 'has_media', 'time_dif', 'likes_cnt', 'self_like', 'replies_cnt', 'reg_date_dif',
-                  'is_closed', 'is_bot']
+COMMENT_DATA_X = ['text', 'has_media', 'time_dif', 'likes_cnt', 'self_like', 'replies_cnt', 'reg_date_dif', 'is_closed']
+
+COMMENT_DATA_X_Y = ['text', 'has_media', 'time_dif', 'likes_cnt', 'self_like', 'replies_cnt', 'reg_date_dif',
+                    'is_closed', 'is_bot']
 
 
 @dataclass

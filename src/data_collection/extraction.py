@@ -41,6 +41,33 @@ def construct_comment_data_list(comment_data, is_bot):
     ]
 
 
+def get_comment_data_list_by_link_x(vk_api, comment_link):
+    comment_data = get_comment_data_by_link(vk_api, comment_link)
+    if comment_data is None:
+        return None
+    return construct_comment_data_list_x(comment_data)
+
+
+def get_comment_data_list_x(vk_api, owner_id, comment_id):
+    comment_data = get_comment_data(vk_api, owner_id, comment_id)
+    if comment_data is None:
+        return None
+    return construct_comment_data_list_x(comment_data)
+
+
+def construct_comment_data_list_x(comment_data):
+    return [
+        comment_data.text,
+        comment_data.has_media,
+        comment_data.time_dif,
+        comment_data.likes_cnt,
+        comment_data.self_like,
+        comment_data.answers_cnt,
+        comment_data.reg_date_dif,
+        comment_data.is_closed
+    ]
+
+
 def get_comment_data_by_link(vk_api, comment_link):
     match = re.match(COMMENT_REGEX, comment_link)
     group_id = int(match.group(1))

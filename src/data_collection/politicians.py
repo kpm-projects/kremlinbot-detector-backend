@@ -5,7 +5,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from data_collection.comment_data import COMMENT_DATA_Y
+from data_collection.comment_data import COMMENT_DATA_X_Y
 from data_collection.extraction import get_comment_data_list
 from data_collection.utils import get_vk_api, get_config, get_bot_ids, PROCESSED_NOTIFY_NUM
 
@@ -26,7 +26,7 @@ def main():
     bot_ids = get_bot_ids()
     with codecs.open(POLITICIAN_DATA_PATH, 'w+', encoding='utf8') as politician_data_file:
         tsv_writer = csv.writer(politician_data_file, delimiter='\t')
-        tsv_writer.writerow(COMMENT_DATA_Y)
+        tsv_writer.writerow(COMMENT_DATA_X_Y)
 
         limit = get_config()[POLITICIANS_NUM]
         if limit == 0:

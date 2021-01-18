@@ -1,4 +1,5 @@
-vk_login = "login"
-vk_password = "password"
+vk_login = "vk_login"
+vk_password = "vk_password"
+vk_public_token = "vk_public_token"
 bots_num = 5
 politicians_num = 5

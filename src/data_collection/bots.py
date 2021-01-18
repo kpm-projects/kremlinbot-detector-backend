@@ -4,7 +4,7 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-from data_collection.comment_data import COMMENT_DATA_Y
+from data_collection.comment_data import COMMENT_DATA_X_Y
 from data_collection.extraction import get_comment_data_list_by_link
 from data_collection.utils import get_config, get_bot_ids, get_vk_api, PROCESSED_NOTIFY_NUM
 
@@ -20,7 +20,7 @@ def main():
     bot_ids = get_bot_ids()
     with codecs.open(BOT_DATA_PATH, 'w+', encoding='utf8') as bot_data_file:
         tsv_writer = csv.writer(bot_data_file, delimiter='\t')
-        tsv_writer.writerow(COMMENT_DATA_Y)
+        tsv_writer.writerow(COMMENT_DATA_X_Y)
 
         limit = get_config()[BOTS_NUM]
         if limit == 0:
