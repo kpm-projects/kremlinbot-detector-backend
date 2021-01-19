@@ -1,0 +1,4320 @@
+pymorphy_nltk-stopwords_badwords
+700
+LinearSVC()  0.8
+1000
+[0.8571767414084783, 0.8569634792916417]
+LinearSVC()  0.8
+1200
+[0.8571767414084783, 0.8569634792916417]
+LinearSVC()  0.8
+1500
+[0.8571767414084783, 0.8569634792916417]
+LinearSVC()  0.8
+2000
+[0.8571767414084783, 0.8569634792916417]
+LinearSVC()  0.8
+2500
+[0.8571767414084783, 0.8569634792916417]
+LinearSVC()  0.9
+1000
+[0.8572943039432115, 0.8570842668321651]
+LinearSVC()  0.9
+1200
+[0.8572943039432115, 0.8570842668321651]
+LinearSVC()  0.9
+1500
+[0.8572943039432115, 0.8570842668321651]
+LinearSVC()  0.9
+2000
+[0.8572943039432115, 0.8570842668321651]
+LinearSVC()  0.9
+2500
+[0.8572943039432115, 0.8570842668321651]
+LinearSVC()  1.0
+1000
+[0.8569024620892296, 0.8566903565089394]
+LinearSVC()  1.0
+1200
+[0.8569024620892296, 0.8566903565089394]
+LinearSVC()  1.0
+1500
+[0.8569024620892296, 0.8566903565089394]
+LinearSVC()  1.0
+2000
+[0.8569024620892296, 0.8566903565089394]
+LinearSVC()  1.0
+2500
+[0.8569024620892296, 0.8566903565089394]
+LinearSVC()  1.1
+1000
+[0.8568240921832736, 0.8566120579371622]
+LinearSVC()  1.1
+1200
+[0.8568240921832736, 0.8566120579371622]
+LinearSVC()  1.1
+1500
+[0.8568240921832736, 0.8566120579371622]
+LinearSVC()  1.1
+2000
+[0.8568240921832736, 0.8566120579371622]
+LinearSVC()  1.1
+2500
+[0.8568240921832736, 0.8566120579371622]
+LinearSVC()  1.2
+1000
+[0.856941639366409, 0.8567285098539552]
+LinearSVC()  1.2
+1200
+[0.856941639366409, 0.8567285098539552]
+LinearSVC()  1.2
+1500
+[0.856941639366409, 0.8567285098539552]
+LinearSVC()  1.2
+2000
+[0.856941639366409, 0.8567285098539552]
+LinearSVC()  1.2
+2500
+[0.856941639366409, 0.8567285098539552]
+RandomForestClassifier()  100
+[0.8731240347682985, 0.8728123803861967]
+RandomForestClassifier()  200
+[0.8727322005901155, 0.872407251688424]
+RandomForestClassifier()  300
+[0.8738685411990825, 0.8735494811348119]
+RandomForestClassifier()  400
+[0.8736334238054153, 0.8733363633395298]
+GaussianNB()
+[0.6687820579737733, 0.6686150718008076]
+AdaBoostClassifier()  40
+[0.8600366826425626, 0.8598001738592702]
+AdaBoostClassifier()  45
+[0.8601542067983015, 0.8598951548839466]
+AdaBoostClassifier()  50
+[0.8614864951995556, 0.8612290573823567]
+AdaBoostClassifier()  55
+[0.8607811660459503, 0.860538961570286]
+AdaBoostClassifier()  60
+[0.8609770908108405, 0.8607330108595441]
+LogisticRegression()  0.8
+100
+[0.8539638746204318, 0.8537257361189754]
+LogisticRegression()  0.8
+150
+[0.8539638746204318, 0.8537257361189754]
+LogisticRegression()  0.8
+200
+[0.8539638746204318, 0.8537257361189754]
+LogisticRegression()  0.8
+250
+[0.8539638746204318, 0.8537257361189754]
+LogisticRegression()  0.8
+300
+[0.8539638746204318, 0.8537257361189754]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8543557087986148, 0.8541212941520768]
+LogisticRegression()  0.9
+150
+[0.8543557087986148, 0.8541212941520768]
+LogisticRegression()  0.9
+200
+[0.8543557087986148, 0.8541212941520768]
+LogisticRegression()  0.9
+250
+[0.8543557087986148, 0.8541212941520768]
+LogisticRegression()  0.9
+300
+[0.8543557087986148, 0.8541212941520768]
+LogisticRegression()  1.0
+100
+[0.854629965090467, 0.8543925374355646]
+LogisticRegression()  1.0
+150
+[0.854629965090467, 0.8543925374355646]
+LogisticRegression()  1.0
+200
+[0.854629965090467, 0.8543925374355646]
+LogisticRegression()  1.0
+250
+[0.854629965090467, 0.8543925374355646]
+LogisticRegression()  1.0
+300
+[0.854629965090467, 0.8543925374355646]
+LogisticRegression()  1.1
+100
+[0.8548650671325365, 0.8546293321776236]
+LogisticRegression()  1.1
+150
+[0.8548650671325365, 0.8546293321776236]
+LogisticRegression()  1.1
+200
+[0.8548650671325365, 0.8546293321776236]
+LogisticRegression()  1.1
+250
+[0.8548650671325365, 0.8546293321776236]
+LogisticRegression()  1.1
+300
+[0.8548650671325365, 0.8546293321776236]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.854943421686895, 0.8547059847938797]
+LogisticRegression()  1.2
+150
+[0.854943421686895, 0.8547059847938797]
+LogisticRegression()  1.2
+200
+[0.854943421686895, 0.8547059847938797]
+LogisticRegression()  1.2
+250
+[0.854943421686895, 0.8547059847938797]
+LogisticRegression()  1.2
+300
+[0.854943421686895, 0.8547059847938797]
+pymorphy_nltk-stopwords_badwords
+800
+LinearSVC()  0.8
+1000
+[0.8572159800920482, 0.8570163838331532]
+LinearSVC()  0.8
+1200
+[0.8572159800920482, 0.8570163838331532]
+LinearSVC()  0.8
+1500
+[0.8572159800920482, 0.8570163838331532]
+LinearSVC()  0.8
+2000
+[0.8572159800920482, 0.8570163838331532]
+LinearSVC()  0.8
+2500
+[0.8572159800920482, 0.8570163838331532]
+LinearSVC()  0.9
+1000
+[0.8573335272751835, 0.8571383045050116]
+LinearSVC()  0.9
+1200
+[0.8573335272751835, 0.8571383045050116]
+LinearSVC()  0.9
+1500
+[0.8573335272751835, 0.8571383045050116]
+LinearSVC()  0.9
+2000
+[0.8573335272751835, 0.8571383045050116]
+LinearSVC()  0.9
+2500
+[0.8573335272751835, 0.8571383045050116]
+LinearSVC()  1.0
+1000
+[0.8571768104906677, 0.8569820661372965]
+LinearSVC()  1.0
+1200
+[0.8571768104906677, 0.8569820661372965]
+LinearSVC()  1.0
+1500
+[0.8571768104906677, 0.8569820661372965]
+LinearSVC()  1.0
+2000
+[0.8571768104906677, 0.8569820661372965]
+LinearSVC()  1.0
+2500
+[0.8571768104906677, 0.8569820661372965]
+LinearSVC()  1.1
+1000
+[0.8572160031194447, 0.85702358619249]
+LinearSVC()  1.1
+1200
+[0.8572160031194447, 0.85702358619249]
+LinearSVC()  1.1
+1500
+[0.8572160031194447, 0.85702358619249]
+LinearSVC()  1.1
+2000
+[0.8572160031194447, 0.85702358619249]
+LinearSVC()  1.1
+2500
+[0.8572160031194447, 0.85702358619249]
+LinearSVC()  1.2
+1000
+[0.8572551957482215, 0.8570631119979574]
+LinearSVC()  1.2
+1200
+[0.8572551957482215, 0.8570631119979574]
+LinearSVC()  1.2
+1500
+[0.8572551957482215, 0.8570631119979574]
+LinearSVC()  1.2
+2000
+[0.8572551957482215, 0.8570631119979574]
+LinearSVC()  1.2
+2500
+[0.8572551957482215, 0.8570631119979574]
+RandomForestClassifier()  100
+[0.871556636649176, 0.871230901109007]
+RandomForestClassifier()  200
+[0.8735159150012743, 0.8732132546428062]
+RandomForestClassifier()  300
+[0.873124004065103, 0.8728146337037312]
+RandomForestClassifier()  400
+[0.8748481573477352, 0.8745533269870183]
+GaussianNB()
+[0.6719168618878167, 0.6716754243159103]
+AdaBoostClassifier()  40
+[0.8598015652488954, 0.8595613469958435]
+AdaBoostClassifier()  45
+[0.8605853180390483, 0.8603450948957414]
+AdaBoostClassifier()  50
+[0.861604119140679, 0.8613642020758203]
+AdaBoostClassifier()  55
+[0.8606636879450044, 0.8604206931568008]
+AdaBoostClassifier()  60
+[0.8612514622396752, 0.8610412235272399]
+LogisticRegression()  0.8
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8559622458159222, 0.8557328349128976]
+LogisticRegression()  0.8
+150
+[0.8559622458159222, 0.8557328349128976]
+LogisticRegression()  0.8
+200
+[0.8559622458159222, 0.8557328349128976]
+LogisticRegression()  0.8
+250
+[0.8559622458159222, 0.8557328349128976]
+LogisticRegression()  0.8
+300
+[0.8559622458159222, 0.8557328349128976]
+LogisticRegression()  0.9
+100
+[0.8561189856278343, 0.8558954471727009]
+LogisticRegression()  0.9
+150
+[0.8561189856278343, 0.8558954471727009]
+LogisticRegression()  0.9
+200
+[0.8561189856278343, 0.8558954471727009]
+LogisticRegression()  0.9
+250
+[0.8561189856278343, 0.8558954471727009]
+LogisticRegression()  0.9
+300
+[0.8561189856278343, 0.8558954471727009]
+LogisticRegression()  1.0
+100
+[0.8560014384446989, 0.8557773555543904]
+LogisticRegression()  1.0
+150
+[0.8560014384446989, 0.8557773555543904]
+LogisticRegression()  1.0
+200
+[0.8560014384446989, 0.8557773555543904]
+LogisticRegression()  1.0
+250
+[0.8560014384446989, 0.8557773555543904]
+LogisticRegression()  1.0
+300
+[0.8560014384446989, 0.8557773555543904]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8562757484671429, 0.8560557858971964]
+LogisticRegression()  1.1
+150
+[0.8563149257443221, 0.8560947941057526]
+LogisticRegression()  1.1
+200
+[0.8563149257443221, 0.8560947941057526]
+LogisticRegression()  1.1
+250
+[0.8563149257443221, 0.8560947941057526]
+LogisticRegression()  1.1
+300
+[0.8563149257443221, 0.8560947941057526]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8562365711899638, 0.856016578514881]
+LogisticRegression()  1.2
+150
+[0.8562365711899638, 0.856016578514881]
+LogisticRegression()  1.2
+200
+[0.8562365711899638, 0.856016578514881]
+LogisticRegression()  1.2
+250
+[0.8562365711899638, 0.856016578514881]
+LogisticRegression()  1.2
+300
+[0.8562365711899638, 0.856016578514881]
+pymorphy_nltk-stopwords_badwords
+900
+LinearSVC()  0.8
+1000
+[0.856863430652228, 0.8566757936643311]
+LinearSVC()  0.8
+1200
+[0.856863430652228, 0.8566757936643311]
+LinearSVC()  0.8
+1500
+[0.856863430652228, 0.8566757936643311]
+LinearSVC()  0.8
+2000
+[0.856863430652228, 0.8566757936643311]
+LinearSVC()  0.8
+2500
+[0.856863430652228, 0.8566757936643311]
+LinearSVC()  0.9
+1000
+[0.8570201551125427, 0.856835158973842]
+LinearSVC()  0.9
+1200
+[0.8570201551125427, 0.856835158973842]
+LinearSVC()  0.9
+1500
+[0.8570201551125427, 0.856835158973842]
+LinearSVC()  0.9
+2000
+[0.8570201551125427, 0.856835158973842]
+LinearSVC()  0.9
+2500
+[0.8570201551125427, 0.856835158973842]
+LinearSVC()  1.0
+1000
+[0.8570593477413195, 0.8568730723113548]
+LinearSVC()  1.0
+1200
+[0.8570593477413195, 0.8568730723113548]
+LinearSVC()  1.0
+1500
+[0.8570593477413195, 0.8568730723113548]
+LinearSVC()  1.0
+2000
+[0.8570593477413195, 0.8568730723113548]
+LinearSVC()  1.0
+2500
+[0.8570593477413195, 0.8568730723113548]
+LinearSVC()  1.1
+1000
+[0.856902615605206, 0.8567163958234291]
+LinearSVC()  1.1
+1200
+[0.856902615605206, 0.8567163958234291]
+LinearSVC()  1.1
+1500
+[0.856902615605206, 0.8567163958234291]
+LinearSVC()  1.1
+2000
+[0.856902615605206, 0.8567163958234291]
+LinearSVC()  1.1
+2500
+[0.856902615605206, 0.8567163958234291]
+LinearSVC()  1.2
+1000
+[0.8568242380234512, 0.8566375588901582]
+LinearSVC()  1.2
+1200
+[0.8568242380234512, 0.8566375588901582]
+LinearSVC()  1.2
+1500
+[0.8568242380234512, 0.8566375588901582]
+LinearSVC()  1.2
+2000
+[0.8568242380234512, 0.8566375588901582]
+LinearSVC()  1.2
+2500
+[0.8568242380234512, 0.8566375588901582]
+RandomForestClassifier()  100
+[0.8731631813422822, 0.8728533393985838]
+RandomForestClassifier()  200
+[0.8739860500032238, 0.8736866036441375]
+RandomForestClassifier()  300
+[0.8751614834555832, 0.8748545634761291]
+RandomForestClassifier()  400
+[0.8742994682206577, 0.8739839492328683]
+GaussianNB()
+[0.6735234526357157, 0.6733446867183904]
+AdaBoostClassifier()  40
+[0.8594881316798638, 0.8592633466979457]
+AdaBoostClassifier()  45
+[0.85940987691089, 0.8591647025389723]
+AdaBoostClassifier()  50
+[0.8608596127098946, 0.8606198045921871]
+AdaBoostClassifier()  55
+[0.8603894470047496, 0.8601459347887722]
+AdaBoostClassifier()  60
+[0.8607420962299546, 0.8605228176746609]
+LogisticRegression()  0.8
+100
+[0.8560014461204977, 0.8557802110137385]
+LogisticRegression()  0.8
+150
+[0.8560014461204977, 0.8557802110137385]
+LogisticRegression()  0.8
+200
+[0.8560014461204977, 0.8557802110137385]
+LogisticRegression()  0.8
+250
+[0.8560014461204977, 0.8557802110137385]
+LogisticRegression()  0.8
+300
+[0.8560014461204977, 0.8557802110137385]
+LogisticRegression()  0.9
+100
+[0.8562757714945395, 0.8560573032519866]
+LogisticRegression()  0.9
+150
+[0.8562757714945395, 0.8560573032519866]
+LogisticRegression()  0.9
+200
+[0.8562757714945395, 0.8560573032519866]
+LogisticRegression()  0.9
+250
+[0.8562757714945395, 0.8560573032519866]
+LogisticRegression()  0.9
+300
+[0.8562757714945395, 0.8560573032519866]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8565108505092125, 0.8562938222046446]
+LogisticRegression()  1.0
+150
+[0.8565108505092125, 0.8562938222046446]
+LogisticRegression()  1.0
+200
+[0.8565108505092125, 0.8562938222046446]
+LogisticRegression()  1.0
+250
+[0.8565108505092125, 0.8562938222046446]
+LogisticRegression()  1.0
+300
+[0.8565108505092125, 0.8562938222046446]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8567851068010647, 0.8565738673089902]
+LogisticRegression()  1.1
+150
+[0.8567851068010647, 0.8565738673089902]
+LogisticRegression()  1.1
+200
+[0.8567851068010647, 0.8565738673089902]
+LogisticRegression()  1.1
+250
+[0.8567851068010647, 0.8565738673089902]
+LogisticRegression()  1.1
+300
+[0.8567851068010647, 0.8565738673089902]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8570201934915367, 0.8568112830303602]
+LogisticRegression()  1.2
+150
+[0.8570593784445147, 0.8568512418206158]
+LogisticRegression()  1.2
+200
+[0.8570593784445147, 0.8568512418206158]
+LogisticRegression()  1.2
+250
+[0.8570593784445147, 0.8568512418206158]
+LogisticRegression()  1.2
+300
+[0.8570593784445147, 0.8568512418206158]
+pymorphy_nltk-stopwords_badwords
+1000
+LinearSVC()  0.8
+1000
+[0.8578037774141155, 0.857638463701478]
+LinearSVC()  0.8
+1200
+[0.8578037774141155, 0.857638463701478]
+LinearSVC()  0.8
+1500
+[0.8578037774141155, 0.857638463701478]
+LinearSVC()  0.8
+2000
+[0.8578037774141155, 0.857638463701478]
+LinearSVC()  0.8
+2500
+[0.8578037774141155, 0.857638463701478]
+LinearSVC()  0.9
+1000
+[0.8578821396442727, 0.8577162454417803]
+LinearSVC()  0.9
+1200
+[0.8578821396442727, 0.8577162454417803]
+LinearSVC()  0.9
+1500
+[0.8578821396442727, 0.8577162454417803]
+LinearSVC()  0.9
+2000
+[0.8578821396442727, 0.8577162454417803]
+LinearSVC()  0.9
+2500
+[0.8578821396442727, 0.8577162454417803]
+LinearSVC()  1.0
+1000
+[0.8574903208176876, 0.8573224189877477]
+LinearSVC()  1.0
+1200
+[0.8574903208176876, 0.8573224189877477]
+LinearSVC()  1.0
+1500
+[0.8574903208176876, 0.8573224189877477]
+LinearSVC()  1.0
+2000
+[0.8574903208176876, 0.8573224189877477]
+LinearSVC()  1.0
+2500
+[0.8574903208176876, 0.8573224189877477]
+LinearSVC()  1.1
+1000
+[0.8573727506071558, 0.8572062227520079]
+LinearSVC()  1.1
+1200
+[0.8573727506071558, 0.8572062227520079]
+LinearSVC()  1.1
+1500
+[0.8573727506071558, 0.8572062227520079]
+LinearSVC()  1.1
+2000
+[0.8573727506071558, 0.8572062227520079]
+LinearSVC()  1.1
+2500
+[0.8573727506071558, 0.8572062227520079]
+LinearSVC()  1.2
+1000
+[0.8575294750674702, 0.8573620687500799]
+LinearSVC()  1.2
+1200
+[0.8575294750674702, 0.8573620687500799]
+LinearSVC()  1.2
+1500
+[0.8575294750674702, 0.8573620687500799]
+LinearSVC()  1.2
+2000
+[0.8575294750674702, 0.8573620687500799]
+LinearSVC()  1.2
+2500
+[0.8575294750674702, 0.8573620687500799]
+RandomForestClassifier()  100
+[0.8733981759231684, 0.873091327177233]
+RandomForestClassifier()  200
+[0.8739077031246643, 0.8736110226136871]
+RandomForestClassifier()  300
+[0.8739467729406598, 0.8736257650254732]
+RandomForestClassifier()  400
+[0.8754749554036089, 0.8751641230201462]
+GaussianNB()
+[0.6770892833567189, 0.6770010539701274]
+AdaBoostClassifier()  40
+[0.8589004187915836, 0.8586798452197112]
+AdaBoostClassifier()  45
+[0.8589396728267511, 0.8587127710776737]
+AdaBoostClassifier()  50
+[0.859488170058858, 0.8592465657209104]
+AdaBoostClassifier()  55
+[0.8599582973850088, 0.8597238543118033]
+AdaBoostClassifier()  60
+[0.8604677478285165, 0.8602295199057084]
+LogisticRegression()  0.8
+100
+[0.8568243147814393, 0.8566181518930062]
+LogisticRegression()  0.8
+150
+[0.8568243147814393, 0.8566181518930062]
+LogisticRegression()  0.8
+200
+[0.8568243147814393, 0.8566181518930062]
+LogisticRegression()  0.8
+250
+[0.8568243147814393, 0.8566181518930062]
+LogisticRegression()  0.8
+300
+[0.8568243147814393, 0.8566181518930062]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8576471680907833, 0.8574420908562569]
+LogisticRegression()  0.9
+150
+[0.8576471680907833, 0.8574420908562569]
+LogisticRegression()  0.9
+200
+[0.8576471680907833, 0.8574420908562569]
+LogisticRegression()  0.9
+250
+[0.8576471680907833, 0.8574420908562569]
+LogisticRegression()  0.9
+300
+[0.8576471680907833, 0.8574420908562569]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8579214243826355, 0.8577164326315495]
+LogisticRegression()  1.0
+150
+[0.8579214243826355, 0.8577164326315495]
+LogisticRegression()  1.0
+200
+[0.8579214243826355, 0.8577164326315495]
+LogisticRegression()  1.0
+250
+[0.8579214243826355, 0.8577164326315495]
+LogisticRegression()  1.0
+300
+[0.8579214243826355, 0.8577164326315495]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8579605863082171, 0.8577606900550176]
+LogisticRegression()  1.1
+150
+[0.8579605863082171, 0.8577606900550176]
+LogisticRegression()  1.1
+200
+[0.8579605863082171, 0.8577606900550176]
+LogisticRegression()  1.1
+250
+[0.8579605863082171, 0.8577606900550176]
+LogisticRegression()  1.1
+300
+[0.8579605863082171, 0.8577606900550176]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8585091449467146, 0.8583137519577295]
+LogisticRegression()  1.2
+150
+[0.8585483222238939, 0.8583531103495183]
+LogisticRegression()  1.2
+200
+[0.8585483222238939, 0.8583531103495183]
+LogisticRegression()  1.2
+250
+[0.8585483222238939, 0.8583531103495183]
+LogisticRegression()  1.2
+300
+[0.8585483222238939, 0.8583531103495183]
+pymorphy_nltk-stopwords_badwords
+1200
+LinearSVC()  0.8
+1000
+[0.8576078603250241, 0.8574554545498699]
+LinearSVC()  0.8
+1200
+[0.8576078603250241, 0.8574554545498699]
+LinearSVC()  0.8
+1500
+[0.8576078603250241, 0.8574554545498699]
+LinearSVC()  0.8
+2000
+[0.8576078603250241, 0.8574554545498699]
+LinearSVC()  0.8
+2500
+[0.8576078603250241, 0.8574554545498699]
+LinearSVC()  0.9
+1000
+[0.85721603382264, 0.8570647159304953]
+LinearSVC()  0.9
+1200
+[0.85721603382264, 0.8570647159304953]
+LinearSVC()  0.9
+1500
+[0.85721603382264, 0.8570647159304953]
+LinearSVC()  0.9
+2000
+[0.85721603382264, 0.8570647159304953]
+LinearSVC()  0.9
+2500
+[0.85721603382264, 0.8570647159304953]
+LinearSVC()  1.0
+1000
+[0.8570201167335485, 0.8568678491391459]
+LinearSVC()  1.0
+1200
+[0.8570201167335485, 0.8568678491391459]
+LinearSVC()  1.0
+1500
+[0.8570201167335485, 0.8568678491391459]
+LinearSVC()  1.0
+2000
+[0.8570201167335485, 0.8568678491391459]
+LinearSVC()  1.0
+2500
+[0.8570201167335485, 0.8568678491391459]
+LinearSVC()  1.1
+1000
+[0.856863384597435, 0.8567126032443089]
+LinearSVC()  1.1
+1200
+[0.856863384597435, 0.8567126032443089]
+LinearSVC()  1.1
+1500
+[0.856863384597435, 0.8567126032443089]
+LinearSVC()  1.1
+2000
+[0.856863384597435, 0.8567126032443089]
+LinearSVC()  1.1
+2500
+[0.856863384597435, 0.8567126032443089]
+LinearSVC()  1.2
+1000
+[0.856667452156746, 0.8565181790676965]
+LinearSVC()  1.2
+1200
+[0.856667452156746, 0.8565181790676965]
+LinearSVC()  1.2
+1500
+[0.856667452156746, 0.8565181790676965]
+LinearSVC()  1.2
+2000
+[0.856667452156746, 0.8565181790676965]
+LinearSVC()  1.2
+2500
+[0.856667452156746, 0.8565181790676965]
+RandomForestClassifier()  100
+[0.8754357934780274, 0.8751595760603385]
+RandomForestClassifier()  200
+[0.8753183000254838, 0.8750350403999946]
+RandomForestClassifier()  300
+[0.8752398763889359, 0.8749704330213829]
+RandomForestClassifier()  400
+[0.8764938486148253, 0.8762270553885168]
+GaussianNB()
+[0.6781080000245625, 0.6778749007366175]
+AdaBoostClassifier()  40
+[0.8606636342144126, 0.8604374665639417]
+AdaBoostClassifier()  45
+[0.8597232797767264, 0.859493664960682]
+AdaBoostClassifier()  50
+[0.8596840564447541, 0.8594558840576084]
+AdaBoostClassifier()  55
+[0.8605461714650644, 0.8603253121505743]
+AdaBoostClassifier()  60
+[0.8615257722621192, 0.8613142119873067]
+LogisticRegression()  0.8
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8590185493354294, 0.8588185006951269]
+LogisticRegression()  0.8
+150
+[0.8590185493354294, 0.8588185006951269]
+LogisticRegression()  0.8
+200
+[0.8590185493354294, 0.8588185006951269]
+LogisticRegression()  0.8
+250
+[0.8590185493354294, 0.8588185006951269]
+LogisticRegression()  0.8
+300
+[0.8590185493354294, 0.8588185006951269]
+LogisticRegression()  0.9
+100
+[0.8591752968231404, 0.8589742372564093]
+LogisticRegression()  0.9
+150
+[0.8591752968231404, 0.8589742372564093]
+LogisticRegression()  0.9
+200
+[0.8591752968231404, 0.8589742372564093]
+LogisticRegression()  0.9
+250
+[0.8591752968231404, 0.8589742372564093]
+LogisticRegression()  0.9
+300
+[0.8591752968231404, 0.8589742372564093]
+LogisticRegression()  1.0
+100
+[0.8594103758378134, 0.8592151455685151]
+LogisticRegression()  1.0
+150
+[0.8594103758378134, 0.8592151455685151]
+LogisticRegression()  1.0
+200
+[0.8594103758378134, 0.8592151455685151]
+LogisticRegression()  1.0
+250
+[0.8594103758378134, 0.8592151455685151]
+LogisticRegression()  1.0
+300
+[0.8594103758378134, 0.8592151455685151]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8595671310013234, 0.8593733678328441]
+LogisticRegression()  1.1
+150
+[0.8595671310013234, 0.8593733678328441]
+LogisticRegression()  1.1
+200
+[0.8595671310013234, 0.8593733678328441]
+LogisticRegression()  1.1
+250
+[0.8595671310013234, 0.8593733678328441]
+LogisticRegression()  1.1
+300
+[0.8595671310013234, 0.8593733678328441]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.859567100298128, 0.8593754392976845]
+LogisticRegression()  1.2
+150
+[0.859567100298128, 0.8593754392976845]
+LogisticRegression()  1.2
+200
+[0.859567100298128, 0.8593754392976845]
+LogisticRegression()  1.2
+250
+[0.859567100298128, 0.8593754392976845]
+LogisticRegression()  1.2
+300
+[0.859567100298128, 0.8593754392976845]
+pymorphy_nltk-stopwords_badwords
+1300
+LinearSVC()  0.8
+1000
+[0.8568240614800782, 0.8566831481520083]
+LinearSVC()  0.8
+1200
+[0.8568240614800782, 0.8566831481520083]
+LinearSVC()  0.8
+1500
+[0.8568240614800782, 0.8566831481520083]
+LinearSVC()  0.8
+2000
+[0.8568240614800782, 0.8566831481520083]
+LinearSVC()  0.8
+2500
+[0.8568240614800782, 0.8566831481520083]
+LinearSVC()  0.9
+1000
+[0.8565889594380087, 0.8564478092333367]
+LinearSVC()  0.9
+1200
+[0.8565889594380087, 0.8564478092333367]
+LinearSVC()  0.9
+1500
+[0.8565889594380087, 0.8564478092333367]
+LinearSVC()  0.9
+2000
+[0.8565889594380087, 0.8564478092333367]
+LinearSVC()  0.9
+2500
+[0.8565889594380087, 0.8564478092333367]
+LinearSVC()  1.0
+1000
+[0.85631468011876, 0.8561718302225743]
+LinearSVC()  1.0
+1200
+[0.85631468011876, 0.8561718302225743]
+LinearSVC()  1.0
+1500
+[0.85631468011876, 0.8561718302225743]
+LinearSVC()  1.0
+2000
+[0.85631468011876, 0.8561718302225743]
+LinearSVC()  1.0
+2500
+[0.85631468011876, 0.8561718302225743]
+LinearSVC()  1.1
+1000
+[0.8559620078661586, 0.855817752047335]
+LinearSVC()  1.1
+1200
+[0.8559620078661586, 0.855817752047335]
+LinearSVC()  1.1
+1500
+[0.8559620078661586, 0.855817752047335]
+LinearSVC()  1.1
+2000
+[0.8559620078661586, 0.855817752047335]
+LinearSVC()  1.1
+2500
+[0.8559620078661586, 0.855817752047335]
+LinearSVC()  1.2
+1000
+[0.8558444760346209, 0.8557009852379034]
+LinearSVC()  1.2
+1200
+[0.8558444760346209, 0.8557009852379034]
+LinearSVC()  1.2
+1500
+[0.8558444760346209, 0.8557009852379034]
+LinearSVC()  1.2
+2000
+[0.8558444760346209, 0.8557009852379034]
+LinearSVC()  1.2
+2500
+[0.8558444760346209, 0.8557009852379034]
+RandomForestClassifier()  100
+[0.8752007451665496, 0.874917676842476]
+RandomForestClassifier()  200
+[0.876180284557214, 0.8758966846721498]
+RandomForestClassifier()  300
+[0.8753573314624852, 0.8750772724820187]
+RandomForestClassifier()  400
+[0.8748480268591553, 0.874561721426043]
+GaussianNB()
+[0.6815559458272822, 0.6810154560254256]
+AdaBoostClassifier()  40
+[0.8599974976895846, 0.8597112043600031]
+AdaBoostClassifier()  45
+[0.8597232490735311, 0.8594828123641521]
+AdaBoostClassifier()  50
+[0.8592531063957827, 0.8590114612458268]
+AdaBoostClassifier()  55
+[0.859644963601362, 0.8593955974259474]
+AdaBoostClassifier()  60
+[0.8603110770987936, 0.860068295865523]
+LogisticRegression()  0.8
+100
+[0.8581565417763027, 0.8579545912840205]
+LogisticRegression()  0.8
+150
+[0.8581565417763027, 0.8579545912840205]
+LogisticRegression()  0.8
+200
+[0.8581565417763027, 0.8579545912840205]
+LogisticRegression()  0.8
+250
+[0.8581565417763027, 0.8579545912840205]
+LogisticRegression()  0.8
+300
+[0.8581565417763027, 0.8579545912840205]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.85823490400646, 0.8580336628481552]
+LogisticRegression()  0.9
+150
+[0.85823490400646, 0.8580336628481552]
+LogisticRegression()  0.9
+200
+[0.85823490400646, 0.8580336628481552]
+LogisticRegression()  0.9
+250
+[0.85823490400646, 0.8580336628481552]
+LogisticRegression()  0.9
+300
+[0.85823490400646, 0.8580336628481552]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8587050773874036, 0.8585079231366898]
+LogisticRegression()  1.0
+150
+[0.8587050773874036, 0.8585079231366898]
+LogisticRegression()  1.0
+200
+[0.8587050773874036, 0.8585079231366898]
+LogisticRegression()  1.0
+250
+[0.8587050773874036, 0.8585079231366898]
+LogisticRegression()  1.0
+300
+[0.8587050773874036, 0.8585079231366898]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8589793567066524, 0.85878292944871]
+LogisticRegression()  1.1
+150
+[0.8589401717536743, 0.8587432374372431]
+LogisticRegression()  1.1
+200
+[0.8589401717536743, 0.8587432374372431]
+LogisticRegression()  1.1
+250
+[0.8589401717536743, 0.8587432374372431]
+LogisticRegression()  1.1
+300
+[0.8589401717536743, 0.8587432374372431]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8588226322463379, 0.8586300732583891]
+LogisticRegression()  1.2
+150
+[0.8587834472933599, 0.8585911238428707]
+LogisticRegression()  1.2
+200
+[0.8587834472933599, 0.8585911238428707]
+LogisticRegression()  1.2
+250
+[0.8587834472933599, 0.8585911238428707]
+LogisticRegression()  1.2
+300
+[0.8587834472933599, 0.8585911238428707]
+pymorphy_nltk-stopwords_badwords
+1400
+LinearSVC()  0.8
+1000
+[0.8570590790883607, 0.8569175127948331]
+LinearSVC()  0.8
+1200
+[0.8570590790883607, 0.8569175127948331]
+LinearSVC()  0.8
+1500
+[0.8570590790883607, 0.8569175127948331]
+LinearSVC()  0.8
+2000
+[0.8570590790883607, 0.8569175127948331]
+LinearSVC()  0.8
+2500
+[0.8570590790883607, 0.8569175127948331]
+LinearSVC()  0.9
+1000
+[0.8569023623038451, 0.8567613662678829]
+LinearSVC()  0.9
+1200
+[0.8569023623038451, 0.8567613662678829]
+LinearSVC()  0.9
+1500
+[0.8569023623038451, 0.8567613662678829]
+LinearSVC()  0.9
+2000
+[0.8569023623038451, 0.8567613662678829]
+LinearSVC()  0.9
+2500
+[0.8569023623038451, 0.8567613662678829]
+LinearSVC()  1.0
+1000
+[0.8568239770462911, 0.8566821231948761]
+LinearSVC()  1.0
+1200
+[0.8568239770462911, 0.8566821231948761]
+LinearSVC()  1.0
+1500
+[0.8568239770462911, 0.8566821231948761]
+LinearSVC()  1.0
+2000
+[0.8568239770462911, 0.8566821231948761]
+LinearSVC()  1.0
+2500
+[0.8568239770462911, 0.8566821231948761]
+LinearSVC()  1.1
+1000
+[0.8565105127740644, 0.8563653759047591]
+LinearSVC()  1.1
+1200
+[0.8565105127740644, 0.8563653759047591]
+LinearSVC()  1.1
+1500
+[0.8565105127740644, 0.8563653759047591]
+LinearSVC()  1.1
+2000
+[0.8565105127740644, 0.8563653759047591]
+LinearSVC()  1.1
+2500
+[0.8565105127740644, 0.8563653759047591]
+LinearSVC()  1.2
+1000
+[0.8564321505439072, 0.8562897541093971]
+LinearSVC()  1.2
+1200
+[0.8564321505439072, 0.8562897541093971]
+LinearSVC()  1.2
+1500
+[0.8564321505439072, 0.8562897541093971]
+LinearSVC()  1.2
+2000
+[0.8564321505439072, 0.8562897541093971]
+LinearSVC()  1.2
+2500
+[0.8564321505439072, 0.8562897541093971]
+RandomForestClassifier()  100
+[0.875239830334143, 0.8749606594211553]
+RandomForestClassifier()  200
+[0.8752791304241032, 0.8749861132373054]
+RandomForestClassifier()  300
+[0.8763762016463053, 0.8761074401050057]
+RandomForestClassifier()  400
+[0.8755533406611626, 0.8752946480571367]
+GaussianNB()
+[0.683671987018689, 0.6831039852084831]
+AdaBoostClassifier()  40
+[0.8584304449814091, 0.8581802017910938]
+AdaBoostClassifier()  45
+[0.8596840334173578, 0.8594382868773364]
+AdaBoostClassifier()  50
+[0.8589004264673825, 0.8586656567441289]
+AdaBoostClassifier()  55
+[0.8584694150120203, 0.8582330234165692]
+AdaBoostClassifier()  60
+[0.8595665246132164, 0.8593346083050364]
+LogisticRegression()  0.8
+100
+[0.8583524358379977, 0.8581524425935232]
+LogisticRegression()  0.8
+150
+[0.8583524358379977, 0.8581524425935232]
+LogisticRegression()  0.8
+200
+[0.8583524358379977, 0.8581524425935232]
+LogisticRegression()  0.8
+250
+[0.8583524358379977, 0.8581524425935232]
+LogisticRegression()  0.8
+300
+[0.8583524358379977, 0.8581524425935232]
+LogisticRegression()  0.9
+100
+[0.8589401640778755, 0.858740947468281]
+LogisticRegression()  0.9
+150
+[0.8589401640778755, 0.858740947468281]
+LogisticRegression()  0.9
+200
+[0.8589401640778755, 0.858740947468281]
+LogisticRegression()  0.9
+250
+[0.8589401640778755, 0.858740947468281]
+LogisticRegression()  0.9
+300
+[0.8589401640778755, 0.858740947468281]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8590968808623914, 0.8589028892763283]
+LogisticRegression()  1.0
+150
+[0.8590968808623914, 0.8589028892763283]
+LogisticRegression()  1.0
+200
+[0.8590968808623914, 0.8589028892763283]
+LogisticRegression()  1.0
+250
+[0.8590968808623914, 0.8589028892763283]
+LogisticRegression()  1.0
+300
+[0.8590968808623914, 0.8589028892763283]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8597629790082253, 0.8595752551256934]
+LogisticRegression()  1.1
+150
+[0.8597629790082253, 0.8595752551256934]
+LogisticRegression()  1.1
+200
+[0.8597629790082253, 0.8595752551256934]
+LogisticRegression()  1.1
+250
+[0.8597629790082253, 0.8595752551256934]
+LogisticRegression()  1.1
+300
+[0.8597629790082253, 0.8595752551256934]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.859684586074873, 0.8594975168922359]
+LogisticRegression()  1.2
+150
+[0.859684586074873, 0.8594975168922359]
+LogisticRegression()  1.2
+200
+[0.859684586074873, 0.8594975168922359]
+LogisticRegression()  1.2
+250
+[0.859684586074873, 0.8594975168922359]
+LogisticRegression()  1.2
+300
+[0.859684586074873, 0.8594975168922359]
+pymorphy_nltk-stopwords_badwords
+1500
+LinearSVC()  0.8
+1000
+[0.8563929579151303, 0.8562537663010399]
+LinearSVC()  0.8
+1200
+[0.8563929579151303, 0.8562537663010399]
+LinearSVC()  0.8
+1500
+[0.8563929579151303, 0.8562537663010399]
+LinearSVC()  0.8
+2000
+[0.8563929579151303, 0.8562537663010399]
+LinearSVC()  0.8
+2500
+[0.8563929579151303, 0.8562537663010399]
+LinearSVC()  0.9
+1000
+[0.8563146340639669, 0.8561782130096885]
+LinearSVC()  0.9
+1200
+[0.8563146340639669, 0.8561782130096885]
+LinearSVC()  0.9
+1500
+[0.8563146340639669, 0.8561782130096885]
+LinearSVC()  0.9
+2000
+[0.8563146340639669, 0.8561782130096885]
+LinearSVC()  0.9
+2500
+[0.8563146340639669, 0.8561782130096885]
+LinearSVC()  1.0
+1000
+[0.8562362718338099, 0.856102460976297]
+LinearSVC()  1.0
+1200
+[0.8562362718338099, 0.856102460976297]
+LinearSVC()  1.0
+1500
+[0.8562362718338099, 0.856102460976297]
+LinearSVC()  1.0
+2000
+[0.8562362718338099, 0.856102460976297]
+LinearSVC()  1.0
+2500
+[0.8562362718338099, 0.856102460976297]
+LinearSVC()  1.1
+1000
+[0.8563538113411463, 0.8562201126607818]
+LinearSVC()  1.1
+1200
+[0.8563538113411463, 0.8562201126607818]
+LinearSVC()  1.1
+1500
+[0.8563538113411463, 0.8562201126607818]
+LinearSVC()  1.1
+2000
+[0.8563538113411463, 0.8562201126607818]
+LinearSVC()  1.1
+2500
+[0.8563538113411463, 0.8562201126607818]
+LinearSVC()  1.2
+1000
+[0.8562754567867877, 0.8561424330317294]
+LinearSVC()  1.2
+1200
+[0.8562754567867877, 0.8561424330317294]
+LinearSVC()  1.2
+1500
+[0.8562754567867877, 0.8561424330317294]
+LinearSVC()  1.2
+2000
+[0.8562754567867877, 0.8561424330317294]
+LinearSVC()  1.2
+2500
+[0.8562754567867877, 0.8561424330317294]
+RandomForestClassifier()  100
+[0.875945205542541, 0.8756487637143998]
+RandomForestClassifier()  200
+[0.8752790920451092, 0.8750114774571734]
+RandomForestClassifier()  300
+[0.8757492116954613, 0.8754847236515285]
+RandomForestClassifier()  400
+[0.8764545254974685, 0.8761858542958347]
+GaussianNB()
+[0.6856312500191895, 0.6852146454380804]
+AdaBoostClassifier()  40
+[0.8593313534889576, 0.8590857483678217]
+AdaBoostClassifier()  45
+[0.8590571202245018, 0.8588172257065143]
+AdaBoostClassifier()  50
+[0.8600367670763497, 0.8597916980894512]
+AdaBoostClassifier()  55
+[0.858743655952275, 0.8585042550209963]
+AdaBoostClassifier()  60
+[0.8599191891900191, 0.8597001939070401]
+LogisticRegression()  0.8
+100
+[0.8589009637732999, 0.8587008845036707]
+LogisticRegression()  0.8
+150
+[0.8589009637732999, 0.8587008845036707]
+LogisticRegression()  0.8
+200
+[0.8589009637732999, 0.8587008845036707]
+LogisticRegression()  0.8
+250
+[0.8589009637732999, 0.8587008845036707]
+LogisticRegression()  0.8
+300
+[0.8589009637732999, 0.8587008845036707]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.859527869290357, 0.8593341192024404]
+LogisticRegression()  0.9
+150
+[0.859527869290357, 0.8593341192024404]
+LogisticRegression()  0.9
+200
+[0.859527869290357, 0.8593341192024404]
+LogisticRegression()  0.9
+250
+[0.859527869290357, 0.8593341192024404]
+LogisticRegression()  0.9
+300
+[0.859527869290357, 0.8593341192024404]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8594495224117974, 0.8592591674250937]
+LogisticRegression()  1.0
+150
+[0.8594495224117974, 0.8592591674250937]
+LogisticRegression()  1.0
+200
+[0.8594495224117974, 0.8592591674250937]
+LogisticRegression()  1.0
+250
+[0.8594495224117974, 0.8592591674250937]
+LogisticRegression()  1.0
+300
+[0.8594495224117974, 0.8592591674250937]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8597629636566279, 0.85957451862557]
+LogisticRegression()  1.1
+150
+[0.8598021486096059, 0.8596133052261887]
+LogisticRegression()  1.1
+200
+[0.8598021486096059, 0.8596133052261887]
+LogisticRegression()  1.1
+250
+[0.8598021486096059, 0.8596133052261887]
+LogisticRegression()  1.1
+300
+[0.8598021486096059, 0.8596133052261887]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8598413105351874, 0.8596561371451343]
+LogisticRegression()  1.2
+150
+[0.8598021255822094, 0.8596164498830656]
+LogisticRegression()  1.2
+200
+[0.8598021255822094, 0.8596164498830656]
+LogisticRegression()  1.2
+250
+[0.8598021255822094, 0.8596164498830656]
+LogisticRegression()  1.2
+300
+[0.8598021255822094, 0.8596164498830656]
+_______________________________________
+pymorphy_github-stopwords_badwords
+700
+LinearSVC()  0.8
+1000
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+1200
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+1500
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+2000
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+2500
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.9
+1000
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+1200
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+1500
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+2000
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+2500
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  1.0
+1000
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+1200
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+1500
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+2000
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+2500
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.1
+1000
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+1200
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+1500
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+2000
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+2500
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.2
+1000
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+1200
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+1500
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+2000
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+2500
+[0.851510333863275, 0.8512514423384558]
+RandomForestClassifier()  100
+[0.8565977742448331, 0.8560131783480796]
+RandomForestClassifier()  200
+[0.8586248012718602, 0.8580226213145888]
+RandomForestClassifier()  300
+[0.8577106518282989, 0.8571305639705642]
+RandomForestClassifier()  400
+[0.8576311605723369, 0.8570538212451588]
+GaussianNB()
+[0.6646661367249603, 0.6643478784588016]
+AdaBoostClassifier()  40
+[0.8514308426073132, 0.8511589836958724]
+AdaBoostClassifier()  45
+[0.8534976152623213, 0.8531734610437625]
+AdaBoostClassifier()  50
+[0.8546899841017488, 0.8544078817131947]
+AdaBoostClassifier()  55
+[0.854570747217806, 0.8543358591440657]
+AdaBoostClassifier()  60
+[0.8562400635930046, 0.8559923034393352]
+LogisticRegression()  0.8
+100
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+150
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+200
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+250
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+300
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.9
+100
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+150
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+200
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+250
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+300
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+150
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+200
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+250
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+300
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.850516693163752, 0.8502321009397671]
+LogisticRegression()  1.1
+150
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+200
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+250
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+300
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+150
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+200
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+250
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+300
+[0.8509141494435613, 0.850629380194561]
+pymorphy_github-stopwords_badwords
+800
+LinearSVC()  0.8
+1000
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+1200
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+1500
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+2000
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+2500
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.9
+1000
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+1200
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+1500
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+2000
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+2500
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  1.0
+1000
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+1200
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+1500
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+2000
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+2500
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.1
+1000
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+1200
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+1500
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+2000
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+2500
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.2
+1000
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+1200
+[0.8532988871224166, 0.8530627520606192]
+LinearSVC()  1.2
+1500
+[0.8532988871224166, 0.8530627520606192]
+LinearSVC()  1.2
+2000
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+2500
+[0.8533386327503975, 0.8531022202259276]
+RandomForestClassifier()  100
+[0.8571144674085851, 0.8565141996020953]
+RandomForestClassifier()  200
+[0.8579888712241655, 0.8573912330487999]
+RandomForestClassifier()  300
+[0.8594594594594595, 0.8589245013298449]
+RandomForestClassifier()  400
+[0.8585850556438791, 0.8580246055204508]
+GaussianNB()
+[0.6691176470588235, 0.6689712057198998]
+AdaBoostClassifier()  40
+[0.8537758346581874, 0.8535083634158361]
+AdaBoostClassifier()  45
+[0.8546899841017488, 0.8544264044044059]
+AdaBoostClassifier()  50
+[0.8568759936406997, 0.8566371225593382]
+AdaBoostClassifier()  55
+[0.8565182829888712, 0.856278437213352]
+AdaBoostClassifier()  60
+[0.857631160572337, 0.8574070493039898]
+LogisticRegression()  0.8
+100
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+150
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+200
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+250
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+300
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.9
+100
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+150
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+200
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+250
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+300
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  1.0
+100
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+150
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+200
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+250
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+300
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+150
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+200
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+250
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+300
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+150
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+200
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+250
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+300
+[0.851550079491256, 0.8512803171004709]
+pymorphy_github-stopwords_badwords
+900
+LinearSVC()  0.8
+1000
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+1200
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+1500
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+2000
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+2500
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.9
+1000
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+1200
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+1500
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+2000
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+2500
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  1.0
+1000
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+1200
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+1500
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+2000
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+2500
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.1
+1000
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+1200
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+1500
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+2000
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+2500
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.2
+1000
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+1200
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+1500
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+2000
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+2500
+[0.8532988871224166, 0.8530842272490237]
+RandomForestClassifier()  100
+[0.8573529411764707, 0.8567816090354352]
+RandomForestClassifier()  200
+[0.8593402225755167, 0.8587844167801965]
+RandomForestClassifier()  300
+[0.8602543720190778, 0.8597148717730276]
+RandomForestClassifier()  400
+[0.8591017488076311, 0.8585285274554989]
+GaussianNB()
+[0.6730922098569156, 0.6729731465515005]
+AdaBoostClassifier()  40
+[0.853497615262321, 0.8532271888958924]
+AdaBoostClassifier()  45
+[0.8553259141494435, 0.8550531872892865]
+AdaBoostClassifier()  50
+[0.856637519872814, 0.8563519264875679]
+AdaBoostClassifier()  55
+[0.8570349761526233, 0.8567984441613357]
+AdaBoostClassifier()  60
+[0.8568759936406997, 0.8566564600557582]
+LogisticRegression()  0.8
+100
+[0.8521065182829888, 0.8518458034861002]
+LogisticRegression()  0.8
+150
+[0.8521065182829888, 0.8518458034861002]
+LogisticRegression()  0.8
+200
+[0.8521065182829888, 0.8518458034861002]
+LogisticRegression()  0.8
+250
+[0.8521065182829888, 0.8518458034861002]
+LogisticRegression()  0.8
+300
+[0.8521065182829888, 0.8518458034861002]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8521462639109698, 0.8518905415329214]
+LogisticRegression()  0.9
+150
+[0.8521462639109698, 0.8518905415329214]
+LogisticRegression()  0.9
+200
+[0.8521462639109698, 0.8518905415329214]
+LogisticRegression()  0.9
+250
+[0.8521462639109698, 0.8518905415329214]
+LogisticRegression()  0.9
+300
+[0.8521462639109698, 0.8518905415329214]
+LogisticRegression()  1.0
+100
+[0.85258346581876, 0.8523284003477756]
+LogisticRegression()  1.0
+150
+[0.85258346581876, 0.8523284003477756]
+LogisticRegression()  1.0
+200
+[0.85258346581876, 0.8523284003477756]
+LogisticRegression()  1.0
+250
+[0.85258346581876, 0.8523284003477756]
+LogisticRegression()  1.0
+300
+[0.85258346581876, 0.8523284003477756]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8525039745627983, 0.8522521094571307]
+LogisticRegression()  1.1
+150
+[0.8525039745627983, 0.8522521094571307]
+LogisticRegression()  1.1
+200
+[0.8525039745627983, 0.8522521094571307]
+LogisticRegression()  1.1
+250
+[0.8525039745627983, 0.8522521094571307]
+LogisticRegression()  1.1
+300
+[0.8525039745627983, 0.8522521094571307]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.852503974562798, 0.8522558321396285]
+LogisticRegression()  1.2
+150
+[0.8525437201907791, 0.8522953349752314]
+LogisticRegression()  1.2
+200
+[0.8525437201907791, 0.8522953349752314]
+LogisticRegression()  1.2
+250
+[0.8525437201907791, 0.8522953349752314]
+LogisticRegression()  1.2
+300
+[0.8525437201907791, 0.8522953349752314]
+pymorphy_github-stopwords_badwords
+1000
+LinearSVC()  0.8
+1000
+[0.8535373608903021, 0.8533118090991323]
+LinearSVC()  0.8
+1200
+[0.8535373608903021, 0.8533118090991323]
+LinearSVC()  0.8
+1500
+[0.8535373608903021, 0.8533118090991323]
+LinearSVC()  0.8
+2000
+[0.8535373608903021, 0.8533118090991323]
+LinearSVC()  0.8
+2500
+[0.8535373608903021, 0.8533118090991323]
+LinearSVC()  0.9
+1000
+[0.8534578696343402, 0.8532309289420432]
+LinearSVC()  0.9
+1200
+[0.8534578696343402, 0.8532309289420432]
+LinearSVC()  0.9
+1500
+[0.8534578696343402, 0.8532309289420432]
+LinearSVC()  0.9
+2000
+[0.8534578696343402, 0.8532309289420432]
+LinearSVC()  0.9
+2500
+[0.8534578696343402, 0.8532309289420432]
+LinearSVC()  1.0
+1000
+[0.8533783783783784, 0.853154374784552]
+LinearSVC()  1.0
+1200
+[0.8533783783783784, 0.853154374784552]
+LinearSVC()  1.0
+1500
+[0.8533783783783784, 0.853154374784552]
+LinearSVC()  1.0
+2000
+[0.8533783783783784, 0.853154374784552]
+LinearSVC()  1.0
+2500
+[0.8533783783783784, 0.853154374784552]
+LinearSVC()  1.1
+1000
+[0.8532591414944356, 0.8530318629652103]
+LinearSVC()  1.1
+1200
+[0.8532591414944356, 0.8530318629652103]
+LinearSVC()  1.1
+1500
+[0.8532591414944356, 0.8530318629652103]
+LinearSVC()  1.1
+2000
+[0.8532591414944356, 0.8530318629652103]
+LinearSVC()  1.1
+2500
+[0.8532591414944356, 0.8530318629652103]
+LinearSVC()  1.2
+1000
+[0.853060413354531, 0.8528324067449571]
+LinearSVC()  1.2
+1200
+[0.853100158982512, 0.8528725776589174]
+LinearSVC()  1.2
+1500
+[0.853060413354531, 0.8528324067449571]
+LinearSVC()  1.2
+2000
+[0.853060413354531, 0.8528324067449571]
+LinearSVC()  1.2
+2500
+[0.853060413354531, 0.8528324067449571]
+RandomForestClassifier()  100
+[0.8582273449920509, 0.8576074831893088]
+RandomForestClassifier()  200
+[0.8604531001589825, 0.8598771469906827]
+RandomForestClassifier()  300
+[0.8614069952305247, 0.8608862586922779]
+RandomForestClassifier()  400
+[0.8616852146263912, 0.8611628968902316]
+GaussianNB()
+[0.6733704292527822, 0.6732463293899744]
+AdaBoostClassifier()  40
+[0.8540143084260732, 0.8537435523181358]
+AdaBoostClassifier()  45
+[0.8571144674085851, 0.8568226664167273]
+AdaBoostClassifier()  50
+[0.8569554848966614, 0.856668791062754]
+AdaBoostClassifier()  55
+[0.8562798092209857, 0.8560188536550564]
+AdaBoostClassifier()  60
+[0.8574721780604133, 0.8572351308890713]
+LogisticRegression()  0.8
+100
+[0.8528219395866456, 0.8525551584324607]
+LogisticRegression()  0.8
+150
+[0.8528219395866456, 0.8525551584324607]
+LogisticRegression()  0.8
+200
+[0.8528219395866456, 0.8525551584324607]
+LogisticRegression()  0.8
+250
+[0.8528219395866456, 0.8525551584324607]
+LogisticRegression()  0.8
+300
+[0.8528219395866456, 0.8525551584324607]
+LogisticRegression()  0.9
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8531796502384736, 0.8529151700914979]
+LogisticRegression()  0.9
+150
+[0.8531796502384736, 0.8529151700914979]
+LogisticRegression()  0.9
+200
+[0.8531796502384736, 0.8529151700914979]
+LogisticRegression()  0.9
+250
+[0.8531796502384736, 0.8529151700914979]
+LogisticRegression()  0.9
+300
+[0.8531796502384736, 0.8529151700914979]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8533783783783784, 0.8531189646109606]
+LogisticRegression()  1.0
+150
+[0.8533783783783784, 0.8531189646109606]
+LogisticRegression()  1.0
+200
+[0.8533783783783784, 0.8531189646109606]
+LogisticRegression()  1.0
+250
+[0.8533783783783784, 0.8531189646109606]
+LogisticRegression()  1.0
+300
+[0.8533783783783784, 0.8531189646109606]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8534976152623213, 0.8532443836616824]
+LogisticRegression()  1.1
+150
+[0.8534578696343402, 0.8532043383802448]
+LogisticRegression()  1.1
+200
+[0.8534578696343402, 0.8532043383802448]
+LogisticRegression()  1.1
+250
+[0.8534578696343402, 0.8532043383802448]
+LogisticRegression()  1.1
+300
+[0.8534578696343402, 0.8532043383802448]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8533783783783784, 0.8531242804573166]
+LogisticRegression()  1.2
+150
+[0.8533386327503975, 0.8530836561364955]
+LogisticRegression()  1.2
+200
+[0.8533386327503975, 0.8530836561364955]
+LogisticRegression()  1.2
+250
+[0.8533386327503975, 0.8530836561364955]
+LogisticRegression()  1.2
+300
+[0.8533386327503975, 0.8530836561364955]
+pymorphy_github-stopwords_badwords
+1200
+LinearSVC()  0.8
+1000
+[0.854093799682035, 0.8538852933498164]
+LinearSVC()  0.8
+1200
+[0.854093799682035, 0.8538852933498164]
+LinearSVC()  0.8
+1500
+[0.854093799682035, 0.8538852933498164]
+LinearSVC()  0.8
+2000
+[0.854093799682035, 0.8538852933498164]
+LinearSVC()  0.8
+2500
+[0.854093799682035, 0.8538852933498164]
+LinearSVC()  0.9
+1000
+[0.8538950715421304, 0.8536835815016925]
+LinearSVC()  0.9
+1200
+[0.8538950715421304, 0.8536835815016925]
+LinearSVC()  0.9
+1500
+[0.8538950715421304, 0.8536835815016925]
+LinearSVC()  0.9
+2000
+[0.8538950715421304, 0.8536835815016925]
+LinearSVC()  0.9
+2500
+[0.8538950715421304, 0.8536835815016925]
+LinearSVC()  1.0
+1000
+[0.8536565977742449, 0.853445579929485]
+LinearSVC()  1.0
+1200
+[0.8536565977742449, 0.853445579929485]
+LinearSVC()  1.0
+1500
+[0.8536565977742449, 0.853445579929485]
+LinearSVC()  1.0
+2000
+[0.8536565977742449, 0.853445579929485]
+LinearSVC()  1.0
+2500
+[0.8536565977742449, 0.853445579929485]
+LinearSVC()  1.1
+1000
+[0.8532988871224166, 0.8530897091516231]
+LinearSVC()  1.1
+1200
+[0.8532988871224166, 0.8530897091516231]
+LinearSVC()  1.1
+1500
+[0.8532988871224166, 0.8530897091516231]
+LinearSVC()  1.1
+2000
+[0.8532988871224166, 0.8530897091516231]
+LinearSVC()  1.1
+2500
+[0.8532988871224166, 0.8530897091516231]
+LinearSVC()  1.2
+1000
+[0.8536168521462638, 0.8534088929666387]
+LinearSVC()  1.2
+1200
+[0.8536168521462638, 0.8534088929666387]
+LinearSVC()  1.2
+1500
+[0.8536168521462638, 0.8534088929666387]
+LinearSVC()  1.2
+2000
+[0.8536168521462638, 0.8534088929666387]
+LinearSVC()  1.2
+2500
+[0.8536168521462638, 0.8534088929666387]
+RandomForestClassifier()  100
+[0.8612480127186009, 0.8606769717154945]
+RandomForestClassifier()  200
+[0.8618441971383147, 0.8612950517400281]
+RandomForestClassifier()  300
+[0.860612082670906, 0.8600710195954081]
+RandomForestClassifier()  400
+[0.8628378378378379, 0.8623004484063251]
+GaussianNB()
+[0.6766693163751987, 0.676377149580506]
+AdaBoostClassifier()  40
+[0.8533783783783784, 0.853116007681557]
+AdaBoostClassifier()  45
+[0.8538950715421303, 0.8536255112252202]
+AdaBoostClassifier()  50
+[0.8550079491255962, 0.8547585810397134]
+AdaBoostClassifier()  55
+[0.854093799682035, 0.8538343539124931]
+AdaBoostClassifier()  60
+[0.8555643879173292, 0.855319674220528]
+LogisticRegression()  0.8
+100
+[0.8536565977742449, 0.8533908262476801]
+LogisticRegression()  0.8
+150
+[0.8536565977742449, 0.8533908262476801]
+LogisticRegression()  0.8
+200
+[0.8536565977742449, 0.8533908262476801]
+LogisticRegression()  0.8
+250
+[0.8536565977742449, 0.8533908262476801]
+LogisticRegression()  0.8
+300
+[0.8536565977742449, 0.8533908262476801]
+LogisticRegression()  0.9
+100
+[0.8538950715421304, 0.8536375852030627]
+LogisticRegression()  0.9
+150
+[0.8538950715421304, 0.8536375852030627]
+LogisticRegression()  0.9
+200
+[0.8538950715421304, 0.8536375852030627]
+LogisticRegression()  0.9
+250
+[0.8538950715421304, 0.8536375852030627]
+LogisticRegression()  0.9
+300
+[0.8538950715421304, 0.8536375852030627]
+LogisticRegression()  1.0
+100
+[0.8542527821939586, 0.8540000406433619]
+LogisticRegression()  1.0
+150
+[0.8542527821939586, 0.8540000406433619]
+LogisticRegression()  1.0
+200
+[0.8542527821939586, 0.8540000406433619]
+LogisticRegression()  1.0
+250
+[0.8542527821939586, 0.8540000406433619]
+LogisticRegression()  1.0
+300
+[0.8542527821939586, 0.8540000406433619]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8546899841017488, 0.8544418624559837]
+LogisticRegression()  1.1
+150
+[0.8546899841017488, 0.8544418624559837]
+LogisticRegression()  1.1
+200
+[0.8546899841017488, 0.8544418624559837]
+LogisticRegression()  1.1
+250
+[0.8546899841017488, 0.8544418624559837]
+LogisticRegression()  1.1
+300
+[0.8546899841017488, 0.8544418624559837]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8551271860095391, 0.8548782012876526]
+LogisticRegression()  1.2
+150
+[0.8551669316375199, 0.8549182335486417]
+LogisticRegression()  1.2
+200
+[0.8551669316375199, 0.8549182335486417]
+LogisticRegression()  1.2
+250
+[0.8551669316375199, 0.8549182335486417]
+LogisticRegression()  1.2
+300
+[0.8551669316375199, 0.8549182335486417]
+pymorphy_github-stopwords_badwords
+1300
+LinearSVC()  0.8
+1000
+[0.8544515103338635, 0.8542526889013491]
+LinearSVC()  0.8
+1200
+[0.8544515103338635, 0.8542526889013491]
+LinearSVC()  0.8
+1500
+[0.8544515103338635, 0.8542526889013491]
+LinearSVC()  0.8
+2000
+[0.8544515103338635, 0.8542526889013491]
+LinearSVC()  0.8
+2500
+[0.8544515103338635, 0.8542526889013491]
+LinearSVC()  0.9
+1000
+[0.8542925278219397, 0.8540943371862018]
+LinearSVC()  0.9
+1200
+[0.8542925278219397, 0.8540943371862018]
+LinearSVC()  0.9
+1500
+[0.8542925278219397, 0.8540943371862018]
+LinearSVC()  0.9
+2000
+[0.8542925278219397, 0.8540943371862018]
+LinearSVC()  0.9
+2500
+[0.8542925278219397, 0.8540943371862018]
+LinearSVC()  1.0
+1000
+[0.853974562798092, 0.8537767436362635]
+LinearSVC()  1.0
+1200
+[0.853974562798092, 0.8537767436362635]
+LinearSVC()  1.0
+1500
+[0.853974562798092, 0.8537767436362635]
+LinearSVC()  1.0
+2000
+[0.853974562798092, 0.8537767436362635]
+LinearSVC()  1.0
+2500
+[0.853974562798092, 0.8537767436362635]
+LinearSVC()  1.1
+1000
+[0.8536168521462638, 0.8534192365787208]
+LinearSVC()  1.1
+1200
+[0.8536168521462638, 0.8534192365787208]
+LinearSVC()  1.1
+1500
+[0.8536168521462638, 0.8534192365787208]
+LinearSVC()  1.1
+2000
+[0.8536168521462638, 0.8534192365787208]
+LinearSVC()  1.1
+2500
+[0.8536168521462638, 0.8534192365787208]
+LinearSVC()  1.2
+1000
+[0.8535373608903021, 0.853341156872579]
+LinearSVC()  1.2
+1200
+[0.8535373608903021, 0.853341156872579]
+LinearSVC()  1.2
+1500
+[0.8535373608903021, 0.853341156872579]
+LinearSVC()  1.2
+2000
+[0.8535373608903021, 0.853341156872579]
+LinearSVC()  1.2
+2500
+[0.8535373608903021, 0.853341156872579]
+RandomForestClassifier()  100
+[0.8613672496025437, 0.8607981995867728]
+RandomForestClassifier()  200
+[0.8624801271860095, 0.8619580777919811]
+RandomForestClassifier()  300
+[0.8616852146263911, 0.8611166177281631]
+RandomForestClassifier()  400
+[0.8619634340222575, 0.8614062072498676]
+GaussianNB()
+[0.6788950715421304, 0.6785050431818753]
+AdaBoostClassifier()  40
+[0.852503974562798, 0.8522228396454743]
+AdaBoostClassifier()  45
+[0.8544515103338632, 0.8541774273202603]
+AdaBoostClassifier()  50
+[0.854610492845787, 0.8543129099023418]
+AdaBoostClassifier()  55
+[0.8551271860095389, 0.8548319627696473]
+AdaBoostClassifier()  60
+[0.8548092209856915, 0.8545411778658865]
+LogisticRegression()  0.8
+100
+[0.8542925278219397, 0.8540333176211886]
+LogisticRegression()  0.8
+150
+[0.8542925278219397, 0.8540333176211886]
+LogisticRegression()  0.8
+200
+[0.8542925278219397, 0.8540333176211886]
+LogisticRegression()  0.8
+250
+[0.8542925278219397, 0.8540333176211886]
+LogisticRegression()  0.8
+300
+[0.8542925278219397, 0.8540333176211886]
+LogisticRegression()  0.9
+100
+[0.8546899841017488, 0.8544377602096229]
+LogisticRegression()  0.9
+150
+[0.8546899841017488, 0.8544377602096229]
+LogisticRegression()  0.9
+200
+[0.8546899841017488, 0.8544377602096229]
+LogisticRegression()  0.9
+250
+[0.8546899841017488, 0.8544377602096229]
+LogisticRegression()  0.9
+300
+[0.8546899841017488, 0.8544377602096229]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8549682034976153, 0.8547163204620046]
+LogisticRegression()  1.0
+150
+[0.8549682034976153, 0.8547163204620046]
+LogisticRegression()  1.0
+200
+[0.8549682034976153, 0.8547163204620046]
+LogisticRegression()  1.0
+250
+[0.8549682034976153, 0.8547163204620046]
+LogisticRegression()  1.0
+300
+[0.8549682034976153, 0.8547163204620046]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8551271860095391, 0.8548812457296684]
+LogisticRegression()  1.1
+150
+[0.8551271860095391, 0.8548812457296684]
+LogisticRegression()  1.1
+200
+[0.8551271860095391, 0.8548812457296684]
+LogisticRegression()  1.1
+250
+[0.8551271860095391, 0.8548812457296684]
+LogisticRegression()  1.1
+300
+[0.8551271860095391, 0.8548812457296684]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8557631160572337, 0.8555234708806454]
+LogisticRegression()  1.2
+150
+[0.8557631160572337, 0.8555234708806454]
+LogisticRegression()  1.2
+200
+[0.8557631160572337, 0.8555234708806454]
+LogisticRegression()  1.2
+250
+[0.8557631160572337, 0.8555234708806454]
+LogisticRegression()  1.2
+300
+[0.8557631160572337, 0.8555234708806454]
+pymorphy_github-stopwords_badwords
+1400
+LinearSVC()  0.8
+1000
+[0.854054054054054, 0.8538590223693909]
+LinearSVC()  0.8
+1200
+[0.854054054054054, 0.8538590223693909]
+LinearSVC()  0.8
+1500
+[0.854054054054054, 0.8538590223693909]
+LinearSVC()  0.8
+2000
+[0.854054054054054, 0.8538590223693909]
+LinearSVC()  0.8
+2500
+[0.854054054054054, 0.8538590223693909]
+LinearSVC()  0.9
+1000
+[0.8539348171701112, 0.8537423319463435]
+LinearSVC()  0.9
+1200
+[0.8539348171701112, 0.8537423319463435]
+LinearSVC()  0.9
+1500
+[0.8539348171701112, 0.8537423319463435]
+LinearSVC()  0.9
+2000
+[0.8539348171701112, 0.8537423319463435]
+LinearSVC()  0.9
+2500
+[0.8539348171701112, 0.8537423319463435]
+LinearSVC()  1.0
+1000
+[0.8533783783783784, 0.853182809179111]
+LinearSVC()  1.0
+1200
+[0.8533783783783784, 0.853182809179111]
+LinearSVC()  1.0
+1500
+[0.8533783783783784, 0.853182809179111]
+LinearSVC()  1.0
+2000
+[0.8533783783783784, 0.853182809179111]
+LinearSVC()  1.0
+2500
+[0.8533783783783784, 0.853182809179111]
+LinearSVC()  1.1
+1000
+[0.8532193958664548, 0.8530242616488556]
+LinearSVC()  1.1
+1200
+[0.8532193958664548, 0.8530242616488556]
+LinearSVC()  1.1
+1500
+[0.8532193958664548, 0.8530242616488556]
+LinearSVC()  1.1
+2000
+[0.8532193958664548, 0.8530242616488556]
+LinearSVC()  1.1
+2500
+[0.8532193958664548, 0.8530242616488556]
+LinearSVC()  1.2
+1000
+[0.8532988871224166, 0.853103416423769]
+LinearSVC()  1.2
+1200
+[0.8532988871224166, 0.853103416423769]
+LinearSVC()  1.2
+1500
+[0.8532988871224166, 0.853103416423769]
+LinearSVC()  1.2
+2000
+[0.8532988871224166, 0.853103416423769]
+LinearSVC()  1.2
+2500
+[0.8532988871224166, 0.853103416423769]
+RandomForestClassifier()  100
+[0.8602941176470587, 0.8597339410331912]
+RandomForestClassifier()  200
+[0.8622813990461049, 0.8617566362409743]
+RandomForestClassifier()  300
+[0.8630365659777425, 0.8625023802060039]
+RandomForestClassifier()  400
+[0.8630365659777425, 0.8625128138209284]
+GaussianNB()
+[0.6796899841017489, 0.6793958389204791]
+AdaBoostClassifier()  40
+[0.852027027027027, 0.8517316991974548]
+AdaBoostClassifier()  45
+[0.8533783783783784, 0.8530926437987809]
+AdaBoostClassifier()  50
+[0.855087440381558, 0.8547940794644336]
+AdaBoostClassifier()  55
+[0.8557233704292528, 0.8554464836667837]
+AdaBoostClassifier()  60
+[0.8554848966613673, 0.855258964820122]
+LogisticRegression()  0.8
+100
+[0.854570747217806, 0.8543126356501402]
+LogisticRegression()  0.8
+150
+[0.854570747217806, 0.8543126356501402]
+LogisticRegression()  0.8
+200
+[0.854570747217806, 0.8543126356501402]
+LogisticRegression()  0.8
+250
+[0.854570747217806, 0.8543126356501402]
+LogisticRegression()  0.8
+300
+[0.854570747217806, 0.8543126356501402]
+LogisticRegression()  0.9
+100
+[0.8547694753577106, 0.8545191909192009]
+LogisticRegression()  0.9
+150
+[0.8547694753577106, 0.8545191909192009]
+LogisticRegression()  0.9
+200
+[0.8547694753577106, 0.8545191909192009]
+LogisticRegression()  0.9
+250
+[0.8547694753577106, 0.8545191909192009]
+LogisticRegression()  0.9
+300
+[0.8547694753577106, 0.8545191909192009]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8550079491255962, 0.8547630681381193]
+LogisticRegression()  1.0
+150
+[0.8550079491255962, 0.8547630681381193]
+LogisticRegression()  1.0
+200
+[0.8550079491255962, 0.8547630681381193]
+LogisticRegression()  1.0
+250
+[0.8550079491255962, 0.8547630681381193]
+LogisticRegression()  1.0
+300
+[0.8550079491255962, 0.8547630681381193]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8551669316375199, 0.8549253242091023]
+LogisticRegression()  1.1
+150
+[0.8551669316375199, 0.8549253242091023]
+LogisticRegression()  1.1
+200
+[0.8551669316375199, 0.8549253242091023]
+LogisticRegression()  1.1
+250
+[0.8551669316375199, 0.8549253242091023]
+LogisticRegression()  1.1
+300
+[0.8551669316375199, 0.8549253242091023]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8556836248012718, 0.8554427954087348]
+LogisticRegression()  1.2
+150
+[0.8557233704292528, 0.8554830047318787]
+LogisticRegression()  1.2
+200
+[0.8557233704292528, 0.8554830047318787]
+LogisticRegression()  1.2
+250
+[0.8557233704292528, 0.8554830047318787]
+LogisticRegression()  1.2
+300
+[0.8557233704292528, 0.8554830047318787]
+pymorphy_github-stopwords_badwords
+1500
+LinearSVC()  0.8
+1000
+[0.8532193958664547, 0.8530248625593847]
+LinearSVC()  0.8
+1200
+[0.8532193958664547, 0.8530248625593847]
+LinearSVC()  0.8
+1500
+[0.8532193958664547, 0.8530248625593847]
+LinearSVC()  0.8
+2000
+[0.8532193958664547, 0.8530248625593847]
+LinearSVC()  0.8
+2500
+[0.8532193958664547, 0.8530248625593847]
+LinearSVC()  0.9
+1000
+[0.85302066772655, 0.852821524965236]
+LinearSVC()  0.9
+1200
+[0.85302066772655, 0.852821524965236]
+LinearSVC()  0.9
+1500
+[0.85302066772655, 0.852821524965236]
+LinearSVC()  0.9
+2000
+[0.85302066772655, 0.852821524965236]
+LinearSVC()  0.9
+2500
+[0.85302066772655, 0.852821524965236]
+LinearSVC()  1.0
+1000
+[0.8527821939586646, 0.8525864477437624]
+LinearSVC()  1.0
+1200
+[0.8527821939586646, 0.8525864477437624]
+LinearSVC()  1.0
+1500
+[0.8527821939586646, 0.8525864477437624]
+LinearSVC()  1.0
+2000
+[0.8527821939586646, 0.8525864477437624]
+LinearSVC()  1.0
+2500
+[0.8527821939586646, 0.8525864477437624]
+LinearSVC()  1.1
+1000
+[0.8527027027027027, 0.8525113392533541]
+LinearSVC()  1.1
+1200
+[0.8527027027027027, 0.8525113392533541]
+LinearSVC()  1.1
+1500
+[0.8527027027027027, 0.8525113392533541]
+LinearSVC()  1.1
+2000
+[0.8527027027027027, 0.8525113392533541]
+LinearSVC()  1.1
+2500
+[0.8527027027027027, 0.8525113392533541]
+LinearSVC()  1.2
+1000
+[0.852503974562798, 0.8523093483119327]
+LinearSVC()  1.2
+1200
+[0.852503974562798, 0.8523093483119327]
+LinearSVC()  1.2
+1500
+[0.852503974562798, 0.8523093483119327]
+LinearSVC()  1.2
+2000
+[0.852503974562798, 0.8523093483119327]
+LinearSVC()  1.2
+2500
+[0.852503974562798, 0.8523093483119327]
+RandomForestClassifier()  100
+[0.8614864864864865, 0.8609332922782661]
+RandomForestClassifier()  200
+[0.8616454689984103, 0.8610957772146272]
+RandomForestClassifier()  300
+[0.8635135135135135, 0.8629768730708862]
+RandomForestClassifier()  400
+[0.8630365659777425, 0.8624808414907511]
+GaussianNB()
+[0.6811208267090619, 0.6806963676954716]
+AdaBoostClassifier()  40
+[0.8524642289348172, 0.8521724362522249]
+AdaBoostClassifier()  45
+[0.8547297297297298, 0.8544214753924964]
+AdaBoostClassifier()  50
+[0.8554451510333863, 0.8551601720742685]
+AdaBoostClassifier()  55
+[0.8555246422893481, 0.8552462533896799]
+AdaBoostClassifier()  60
+[0.8560413354531, 0.8557813709056725]
+LogisticRegression()  0.8
+100
+[0.8546899841017488, 0.8544386784198329]
+LogisticRegression()  0.8
+150
+[0.8546899841017488, 0.8544386784198329]
+LogisticRegression()  0.8
+200
+[0.8546899841017488, 0.8544386784198329]
+LogisticRegression()  0.8
+250
+[0.8546899841017488, 0.8544386784198329]
+LogisticRegression()  0.8
+300
+[0.8546899841017488, 0.8544386784198329]
+LogisticRegression()  0.9
+100
+[0.855087440381558, 0.8548398458937634]
+LogisticRegression()  0.9
+150
+[0.855087440381558, 0.8548398458937634]
+LogisticRegression()  0.9
+200
+[0.855087440381558, 0.8548398458937634]
+LogisticRegression()  0.9
+250
+[0.855087440381558, 0.8548398458937634]
+LogisticRegression()  0.9
+300
+[0.855087440381558, 0.8548398458937634]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8552861685214627, 0.8550362363308395]
+LogisticRegression()  1.0
+150
+[0.8552861685214627, 0.8550362363308395]
+LogisticRegression()  1.0
+200
+[0.8552861685214627, 0.8550362363308395]
+LogisticRegression()  1.0
+250
+[0.8552861685214627, 0.8550362363308395]
+LogisticRegression()  1.0
+300
+[0.8552861685214627, 0.8550362363308395]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8552464228934819, 0.8549960779658144]
+LogisticRegression()  1.1
+150
+[0.8552464228934819, 0.8549960779658144]
+LogisticRegression()  1.1
+200
+[0.8552464228934819, 0.8549960779658144]
+LogisticRegression()  1.1
+250
+[0.8552464228934819, 0.8549960779658144]
+LogisticRegression()  1.1
+300
+[0.8552464228934819, 0.8549960779658144]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8553259141494435, 0.8550853148407871]
+LogisticRegression()  1.2
+150
+[0.8553259141494435, 0.8550853148407871]
+LogisticRegression()  1.2
+200
+[0.8553259141494435, 0.8550853148407871]
+LogisticRegression()  1.2
+250
+[0.8553259141494435, 0.8550853148407871]
+LogisticRegression()  1.2
+300
+[0.8553259141494435, 0.8550853148407871]
+_______________________________________
+pymorphy_nltk-stopwords_github-stopwords_badwords
+700
+LinearSVC()  0.8
+1000
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+1200
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+1500
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+2000
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.8
+2500
+[0.8513116057233704, 0.8510519276810065]
+LinearSVC()  0.9
+1000
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+1200
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+1500
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+2000
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  0.9
+2500
+[0.8509538950715421, 0.8506891618183975]
+LinearSVC()  1.0
+1000
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+1200
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+1500
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+2000
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.0
+2500
+[0.8511923688394276, 0.8509293643110409]
+LinearSVC()  1.1
+1000
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+1200
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+1500
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+2000
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.1
+2500
+[0.8514308426073132, 0.8511713332611143]
+LinearSVC()  1.2
+1000
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+1200
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+1500
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+2000
+[0.851510333863275, 0.8512514423384558]
+LinearSVC()  1.2
+2500
+[0.851510333863275, 0.8512514423384558]
+RandomForestClassifier()  100
+[0.8579888712241655, 0.8574586936971084]
+RandomForestClassifier()  200
+[0.8579093799682035, 0.8573256761046671]
+RandomForestClassifier()  300
+[0.8589030206677265, 0.8583660376987957]
+RandomForestClassifier()  400
+[0.8585850556438792, 0.8580255755431916]
+GaussianNB()
+[0.6646661367249603, 0.6643478784588016]
+AdaBoostClassifier()  40
+[0.8514308426073132, 0.8511589836958724]
+AdaBoostClassifier()  45
+[0.8534976152623213, 0.8531734610437625]
+AdaBoostClassifier()  50
+[0.8546899841017488, 0.8544078817131947]
+AdaBoostClassifier()  55
+[0.854570747217806, 0.8543358591440657]
+AdaBoostClassifier()  60
+[0.8562400635930046, 0.8559923034393352]
+LogisticRegression()  0.8
+100
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+150
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+200
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+250
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.8
+300
+[0.8492448330683624, 0.8489433453530589]
+LogisticRegression()  0.9
+100
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+150
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+200
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+250
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  0.9
+300
+[0.849523052464229, 0.849225017953499]
+LogisticRegression()  1.0
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+150
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+200
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+250
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.0
+300
+[0.8502782193958665, 0.849984322143721]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.850516693163752, 0.8502321009397671]
+LogisticRegression()  1.1
+150
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+200
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+250
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.1
+300
+[0.8505564387917328, 0.8502716030997955]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+150
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+200
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+250
+[0.8509141494435613, 0.850629380194561]
+LogisticRegression()  1.2
+300
+[0.8509141494435613, 0.850629380194561]
+pymorphy_nltk-stopwords_github-stopwords_badwords
+800
+LinearSVC()  0.8
+1000
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+1200
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+1500
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+2000
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.8
+2500
+[0.8526232114467408, 0.8523754757979134]
+LinearSVC()  0.9
+1000
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+1200
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+1500
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+2000
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  0.9
+2500
+[0.8527424483306836, 0.8525031968001546]
+LinearSVC()  1.0
+1000
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+1200
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+1500
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+2000
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.0
+2500
+[0.8529411764705882, 0.8527009398138834]
+LinearSVC()  1.1
+1000
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+1200
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+1500
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+2000
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.1
+2500
+[0.8531796502384739, 0.8529417271440307]
+LinearSVC()  1.2
+1000
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+1200
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+1500
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+2000
+[0.8533386327503975, 0.8531022202259276]
+LinearSVC()  1.2
+2500
+[0.8533386327503975, 0.8531022202259276]
+RandomForestClassifier()  100
+[0.8579093799682035, 0.8573301280857726]
+RandomForestClassifier()  200
+[0.8583465818759937, 0.8578096809090565]
+RandomForestClassifier()  300
+[0.8577106518282989, 0.8571293796538981]
+RandomForestClassifier()  400
+[0.8587837837837837, 0.8582205781529277]
+GaussianNB()
+[0.6691176470588235, 0.6689712057198998]
+AdaBoostClassifier()  40
+[0.8537758346581874, 0.8535083634158361]
+AdaBoostClassifier()  45
+[0.8546899841017488, 0.8544264044044059]
+AdaBoostClassifier()  50
+[0.8568759936406997, 0.8566371225593382]
+AdaBoostClassifier()  55
+[0.8565182829888712, 0.856278437213352]
+AdaBoostClassifier()  60
+[0.857631160572337, 0.8574070493039898]
+LogisticRegression()  0.8
+100
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+150
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+200
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+250
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.8
+300
+[0.8506756756756756, 0.8503848738651607]
+LogisticRegression()  0.9
+100
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+150
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+200
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+250
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  0.9
+300
+[0.8511128775834658, 0.8508285882567609]
+LogisticRegression()  1.0
+100
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+150
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+200
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+250
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.0
+300
+[0.8516295707472178, 0.8513486644618137]
+LogisticRegression()  1.1
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+150
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+200
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+250
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.1
+300
+[0.8515500794912558, 0.8512749070491564]
+LogisticRegression()  1.2
+100
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+150
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+200
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+250
+[0.851550079491256, 0.8512803171004709]
+LogisticRegression()  1.2
+300
+[0.851550079491256, 0.8512803171004709]
+pymorphy_nltk-stopwords_github-stopwords_badwords
+900
+LinearSVC()  0.8
+1000
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+1200
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+1500
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+2000
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.8
+2500
+[0.8526629570747218, 0.852438607594614]
+LinearSVC()  0.9
+1000
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+1200
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+1500
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+2000
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  0.9
+2500
+[0.8528616852146265, 0.8526415015907762]
+LinearSVC()  1.0
+1000
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+1200
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+1500
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+2000
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.0
+2500
+[0.8529411764705882, 0.8527238624897595]
+LinearSVC()  1.1
+1000
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+1200
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+1500
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+2000
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.1
+2500
+[0.853060413354531, 0.8528444503558369]
+LinearSVC()  1.2
+1000
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+1200
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+1500
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+2000
+[0.8532988871224166, 0.8530842272490237]
+LinearSVC()  1.2
+2500
+[0.8532988871224166, 0.8530842272490237]
+RandomForestClassifier()  100
